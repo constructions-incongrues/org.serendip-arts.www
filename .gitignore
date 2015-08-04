@@ -1,0 +1,8 @@
+*.bak
+*.orig
+*.sw*
+/.vagrant
+/src/wordpress/wp-config.php
+/vendor
+/etc/root
+/etc/trivoallan
