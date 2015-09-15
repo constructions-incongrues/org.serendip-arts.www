@@ -34,13 +34,9 @@ echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf
 apt-get install -y phpmyadmin
 
 # Création des bases de données
-# -- forum
 mysql --defaults-file=/etc/mysql/debian.cnf -e "drop database if exists new_serendip_arts_org"
 mysql --defaults-file=/etc/mysql/debian.cnf -e "create database new_serendip_arts_org default charset utf8 collate utf8_general_ci"
-#gunzip -c /vagrant/src/data/net_musiquesincongrues_www_forum.dump.sql.gz | mysql --defaults-file=/etc/mysql/debian.cnf net_musiquesincongrues_www_forum#
-# -- asaph
-mysql --defaults-file=/etc/mysql/debian.cnf -e "drop database if exists new_serendip_arts_org"
-mysql --defaults-file=/etc/mysql/debian.cnf -e "create database new_serendip_arts_org default charset utf8 collate utf8_general_ci"
+gunzip -c /vagrant/src/data/fixtures/wordpress.sql.gz | mysql --defaults-file=/etc/mysql/debian.cnf new_serendip_arts_org
 
 # Configuration du projet
 apt-get install -y ant
@@ -58,3 +54,4 @@ rm -f /var/www/index.html
 # Informations
 echo
 echo -e "Le site est disponible à l'adresse : http://new.serendip.vagrant.dev/"
+echo -e "PhpMyAdmin disponible à l'adresse : http://new.serendip.vagrant.dev/phpmyadmin"
