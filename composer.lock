@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f99ace6b83e5f2448089a0f6f2a1f2b1",
+    "hash": "ac9738be8c3f4e3afce1d628d54e656f",
+    "content-hash": "b25a8f28415ed91d4f5621fb8f60c250",
     "packages": [
         {
             "name": "composer/installers",
@@ -126,16 +127,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2.4",
+            "version": "4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1"
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
-                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +160,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-04 12:01:12"
+            "time": "2015-08-18 18:16:11"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -211,15 +212,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.6.1",
+            "version": "3.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.6.1"
+                "reference": "tags/3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -228,6 +229,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/theatre",
+            "version": "0.13.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/theatre/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/theatre.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/theatre/"
         }
     ],
     "packages-dev": [],
