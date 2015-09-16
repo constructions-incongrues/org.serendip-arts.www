@@ -13,7 +13,7 @@
         "constructions-incongrues/ananas-build-toolkit": "0.26.*",
         "johnpbloch/wordpress": "4.3.*",
         "wpackagist-plugin/jetpack": "3.7.*",
-        "wpackagist-plugin/theatre": "0.13.2"
+        "wpackagist-plugin/theatre": "0.13.*"
     },
     "scripts": {
         "post-install-cmd": "ant -f vendor/constructions-incongrues/ananas-build-toolkit/modules/toolkit/module.xml init -Dbasedir=$PWD",
