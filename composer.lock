@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d92598ab783e85cbaaa20c09259d635",
-    "content-hash": "e9f7a1745d96dbe99e8d7e20e558977b",
+    "hash": "2a91ae6bfbe12c8a6dc77d2b46cfaf8d",
+    "content-hash": "d1eab367dddaa8fe0a3ef65185ba971e",
     "packages": [
         {
             "name": "composer/installers",
@@ -209,6 +209,26 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "wpackagist-plugin/add-meta-tags",
+            "version": "2.9.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/add-meta-tags/",
+                "reference": "tags/2.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-meta-tags.2.9.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-meta-tags/"
         },
         {
             "name": "wpackagist-plugin/jetpack",

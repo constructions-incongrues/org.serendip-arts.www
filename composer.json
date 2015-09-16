@@ -12,6 +12,7 @@
     "require": {
         "constructions-incongrues/ananas-build-toolkit": "0.26.*",
         "johnpbloch/wordpress": "4.3.*",
+        "wpackagist-plugin/add-meta-tags": "2.9.*",
         "wpackagist-plugin/jetpack": "3.7.*",
         "wpackagist-plugin/theatre": "0.13.*"
     },
