@@ -8,3 +8,4 @@
 /etc
 /vendor/constructions-incongrues/ananas-build-toolkit
 /.vagrant
+/vendor/johnpbloch/wordpress/wp-content/uploads/
