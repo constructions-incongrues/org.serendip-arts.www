@@ -36,6 +36,10 @@ define('DB_COLLATE', '');
 /** Download plugins and themes without FTP*/
 define('FS_METHOD', 'direct');
 
+/** @see https://codex.wordpress.org/Changing_The_Site_URL#Edit_wp-config.php */
+define('WP_HOME', '@wordpress.base_url@');
+define('WP_SITEURL', '@wordpress.base_url@');
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
